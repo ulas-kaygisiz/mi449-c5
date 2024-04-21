@@ -1,0 +1,105 @@
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 10pt;
+    background: white;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.news {
+    background-color: #f6f6ef;
+}
+
+.news ul {
+    list-style: none;
+    padding: 0;
+}
+
+.news-item {
+    margin-bottom: 5px;
+}
+
+.news-ranking {
+    display: inline-block;
+    width: 20px;
+    text-align: right;
+    margin-right: 5px;
+}
+
+.news-vote {
+    display: inline-block;
+    margin-right: 5px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.news-link {
+    color: #828282;
+    text-decoration: none;
+}
+
+.news-meta {
+    font-size: 7pt;
+    color: #828282;
+    padding-left: 50px;
+
+}
+
+.navbar {
+    background-color: #ff6600;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.navbar li {
+    display: inline;
+    line-height: 12px;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+}
+
+.navbar .navbar-title {
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.navbar .login {
+    float: right;
+    position: relative;
+}
+
+.navbar .logo {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    border: 1px solid white; 
+    padding: 1px 5px;
+    line-height: 10px; 
+    margin-right: 5px; 
+    text-decoration: none;
+}
+
+
+* {
+    margin: 0;
+}
